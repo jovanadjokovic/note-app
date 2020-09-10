@@ -29,7 +29,7 @@ const removeNote = (title) => {
         console.log(chalk.green('Note removed'))
     }
     else {
-        console.log(chalk.red('There is no such a note'))
+        console.log(chalk.red('There is no such a note.'))
     }
     
 }
@@ -50,7 +50,7 @@ const readNotes = (title) => {
         console.log(chalk.magenta(title))
         console.log(note.body)
     } else {
-        console.log('There is no note with that title')
+        console.log('There is no note with that title.')
     }
     
 }
